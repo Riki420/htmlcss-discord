@@ -55,6 +55,10 @@ body{
     font-size: 20px;
 
 }
+.btn-blue{
+    color: #fff;
+    background-color: #8ea1e1;
+}
 
 /*Header e Nav*/
 
@@ -62,6 +66,7 @@ header{
     background-color: #3161e0;
     color: #fff;
     height: 80px;
+    margin-bottom: 40px;
 }
 header .bar-top{
     line-height: 80px;   
@@ -97,6 +102,7 @@ a.btn-small{
     border-radius: 15px;
     text-decoration: none;
 }
+
 
 /*Jumbotron*/
 
@@ -151,47 +157,50 @@ main section{
     bottom: 0;
 }
 
-.content{
-    margin: 0 auto;
-}
+
 
 .left-box{
     width: 70%;
     float: left;
-    height: 500px;
-    background-color: violet;
-    border: 1px solid black
-
-    
+    height: 500px;   
 }
 
 .right-box{
     width: 30%;
     float: left;
-    height: 500px;
-    background-color: tomato;
-    border: 1px solid black
-   
+    height: 500px;    
 }
 
 .box{
     width: 100%;
-    height: 500px;
-    background-color: blueviolet;
-    border: 1px solid black;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.box h2{
+    margin-bottom: 20px ;
+}
+
+.box .star{
+    background-image: url('../img/stars.svg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 50%;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
 }
 
 
 
-
-/*Footer*/
+/* Footer*/
 footer{
     background-color: #23272a;
     width: 100%;
     height: 300px;
-    top: 500px;
-    position: relative;
-
+    top: 820px;
+    position: relative;    
 }
 
 .foot-section-1{
@@ -210,6 +219,9 @@ footer{
     width: calc(1200px / 4);
     height: 100%;
     position: absolute;
+    left: 400px
+
+    
 }
 
 .foot-section-3{
@@ -219,4 +231,5 @@ footer{
     width: calc(1200px / 4);
     height: 100%;
     position: absolute;
+    
 }
