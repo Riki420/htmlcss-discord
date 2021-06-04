@@ -200,36 +200,72 @@ footer{
     width: 100%;
     height: 300px;
     top: 820px;
-    position: relative;    
+    position: relative;
+    color: white;    
 }
+
+/*Footer Sezione 1*/
 
 .foot-section-1{
     float: left;
-    background-color: brown;
-    border: 1px solid black;
-    width: calc(1200px / 4);
+    width: 300px;
     height: 100%;
     position: absolute;
 }
 
+h3{
+    color: #7289da;
+    margin-bottom: 10px;
+    font-size: 36px;
+
+}
+
+#flag{
+    width: 30px;
+    height: 15px;
+    margin-right: 20px;
+    line-height: 10px;
+
+}
+
+.fa-instagram, .fa-twitter, .fa-facebook, .fa-youtube{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+
+/*Footer Sezione 2*/
 .foot-section-2{
     float: left;
     background-color: brown;
-    border: 1px solid black;
-    width: calc(1200px / 4);
+    width: calc(900px / 4);
     height: 100%;
     position: absolute;
-    left: 400px
+    left: 400px;
 
     
 }
+
+/*Footer Sezione 3*/
 
 .foot-section-3{
     float: left;
     background-color: brown;
-    border: 1px solid black;
-    width: calc(1200px / 4);
+    width: calc(900px / 4);
     height: 100%;
     position: absolute;
-    
+    left: 620px;
+
 }
+
+/*Footer Sezione 4*/
+.foot-section-4{
+    float: left;
+    background-color: brown;
+    width: calc(900px / 4);
+    height: 100%;
+    position: absolute;
+    left: 800px;
+
+}
+
