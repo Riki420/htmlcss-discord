@@ -56,7 +56,7 @@ body{
 
 }
 
-/*Header*/
+/*Header e Nav*/
 
 header{
     background-color: #3161e0;
@@ -98,6 +98,8 @@ a.btn-small{
     text-decoration: none;
 }
 
+/*Jumbotron*/
+
 .jumbotron{
     background-image: url('../img/jumbo.png');
     background-position: center;
@@ -136,4 +138,81 @@ a.btn-large{
     border-radius: 50px;
     font-size: 16px;
 
+}
+
+
+/*Main*/
+
+
+main section{
+    height: 500px;
+    position: relative;
+    top: 500px;
+    bottom: 0;
+}
+
+.content{
+    margin: 0 auto;
+}
+
+.left-box{
+    width: 60%;
+    float: left;
+    height: 500px;
+    background-color: violet;
+    border: 1px solid black
+
+    
+}
+
+.right-box{
+    width: 40%;
+    float: left;
+    height: 500px;
+    background-color: tomato;
+    border: 1px solid black
+   
+}
+
+.box{
+    width: 100%;
+    height: 500px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+
+
+
+/*Footer*/
+footer{
+    background-color: #23272a;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 500px;
+}
+
+.foot-section-1{
+    float: left;
+    background-color: brown;
+    border: 1px solid black;
+    width: calc(1200px / 4);
+    height: 100%;
+}
+
+.foot-section-2{
+    float: left;
+    background-color: brown;
+    border: 1px solid black;
+    width: calc(1200px / 4);
+    height: 100%;
+}
+
+.foot-section-3{
+    float: left;
+    background-color: brown;
+    border: 1px solid black;
+    width: calc(1200px / 4);
+    height: 100%;
 }
