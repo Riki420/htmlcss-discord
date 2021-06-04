@@ -23,24 +23,45 @@ body{
     margin: 0 auto;
 }
 
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
 
-.w-20{
+.col{
+    float: left;
+}
+
+.col.w-20{
     width: 20%;
 }
 
-.w-50{
-    width: 50%;
+.col.w-60{
+    width: 60%;
+}
+
+.btn-white{
+    background-color: #fff;
+}
+
+.btn-black{
+    background-color: #000;
 }
 
 /*Header*/
 
 header{
+    background-color: #3161e0;
+    color: #fff;
     height: 80px;
-    background-color: aquamarine;
+}
+header .bar-top{
+    line-height: 80px;   
+
 }
 
 #logo{
-    line-height: 80px;
     vertical-align: middle;
 }
 
@@ -50,5 +71,37 @@ header{
 
 .main-menu ul li{
     display: inline-block;
+    margin: 0 20px;
 
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    vertical-align: middle;
+    color:#fff
+}
+
+.main-menu ul li a:hover{
+    text-decoration: underline;
+}
+
+a.btn-small{
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.jumbotron{
+    background-image: url('../img/jumbo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+
+}
+
+.jumbotron .text-header{
+    text-align: center;
+    padding: 60px;
 }
